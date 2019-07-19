@@ -1,7 +1,7 @@
 # SpringBoot DB Replication 
 **Routing write and read queries to master and slave db respectively.**
 
-Springboot application to demonstrate master/slave replication using AbstractRoutingDataSource.
+Springboot application to demonstrate master/slave replication using `AbstractRoutingDataSource`.
 
 **Pros** :
 1. Instead of using javax's `@Transactional` for routing, one can implement customised anotations.
