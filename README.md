@@ -1,5 +1,6 @@
 # SpringBoot DB Replication 
 **Routing write and read queries to master and slave db respectively.**
+
 Springboot application to demonstrate master/slave replication using AbstractRoutingDataSource.
 
 **Pros** :
