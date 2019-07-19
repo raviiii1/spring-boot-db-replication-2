@@ -4,7 +4,9 @@
 Springboot application to demonstrate master/slave replication using `AbstractRoutingDataSource`.
 
 **Pros** :
-1. Instead of using javax's `@Transactional` for routing, one can implement customised anotations.
+1. Can be used for any DB-vendors, unlike connector/j which is used only for mysql.
+2. Can be used with multiple DB-vendors.
+3. Instead of using javax's `@Transactional` for routing, one can implement customised anotations.
 
 **Cons** :
 1. It requires sufficient code changes/refactoring. You might not choose this approach for a legacy codebase.
